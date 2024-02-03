@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    
+   
+}
+.London{
+    color: hsl(75, 94%, 57%);
+    
+}
+.main{
+background-color: hsl(0, 0%, 12%);
+width: 300px;
+margin: auto;
+height: 510px;
+padding-top: 20px;
+margin-top: 60px;
+padding-bottom: 4px;
+
+}
+button{
+width: 195px;
+height: 35px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 15px;
+border-radius: 7px;
+background-color: hsl(0, 0%, 20%);
+padding-top: 7px;
+margin-left: 50px;
+color: white;
+font-weight: bold;
+margin-top: 20px;
+border: none;
+}
+img{
+    border-radius: 50%;
+    width: 90px;
+}
+@media (min-width: 24.5rem) {
+    .card {
+      max-width: 24rem;
+      padding: 40px;
+    }
+    .attribution {
+        font-size: 0.6875rem;
+      }
+      
+   }
+   
